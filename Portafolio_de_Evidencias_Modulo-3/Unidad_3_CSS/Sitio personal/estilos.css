@@ -1,0 +1,103 @@
+html{
+font-size: 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(204, 206, 208);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1{
+    color: rgb(238, 11, 11);
+    border: 3px solid green;
+    font-size: 32px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.destacado{
+    padding: 10px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*CH es el ancho del caracter, el valor 70 marca un rango de lectura comoda por linea o renglon, mas larga la vista se pierde*/
+
+p{
+    max-width: 70ch;
+    transition: all 1s ease;
+    display: block;
+}
+
+h1:hover{
+    transform: scale(1.5rem);
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: rgb(201, 56, 194);
+    
+}
+
+header{
+    background-color: aliceblue;
+    background-image: url(Recursos/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+div a:hover{
+    text-decoration: none;
+    color: rgb(201, 56, 194);
+}
+
+#bienvenida{
+    color: rgb(133, 161, 68);
+}
+
+
+
+
+/*tamaño de fuente indica al usuario configura por omision es de 16px*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

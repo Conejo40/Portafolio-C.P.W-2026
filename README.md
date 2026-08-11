@@ -58,12 +58,12 @@ Portafolio-Codificación de Páginas Web/
 | Sesión | Tema                           | Qué aprendí                                      |      Trabajo      |     Captura      |
 | :----: | :----------------------------- | :----------------------------------------------- | :---------------: | :--------------: |
 |  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos para trabajo colaborativo | [ver](unidad-02/) | [ver](recursos/) |
-|  S03   | Estructura del documento HTML5 | Aprendi a hacer la estructura basica en HTML     | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/S03/Index.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S03.png) |
-|  S04   | Texto, enlaces y anclas        | Aprendi a usar links, textos y anclas            | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/S04/Articulo.html) | [ver](recursos/) |
-|  S05   | Listas y tablas                | Aprendi a crear tipos de listas y tablas         | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/S05/Horario.html) | [ver](recursos/) |
-|  S06   | Formularios y semántica        | Aprendi a crear formularios en HTML              | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/S06/Registro.html) | [ver](recursos/) |
-|  S07   | Multimedia                     | Aprendi a usar contenido multimedia en HTML      | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/S07/Galeria.html) | [ver](recursos/) |
-|  S08   | SVG y repaso                   | Aprendi a crear svg a partir de codigo en HTML   | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/S08/Insignia.html) | [ver](recursos/) |
+|  S03   | Estructura del documento HTML5 | Aprendi a hacer la estructura basica en HTML     | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Index.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S03.png) |
+|  S04   | Texto, enlaces y anclas        | Aprendi a usar links, textos y anclas            | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Articulo.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-04.png) |
+|  S05   | Listas y tablas                | Aprendi a crear tipos de listas y tablas         | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Horario.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-05.png) |
+|  S06   | Formularios y semántica        | Aprendi a crear formularios en HTML              | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Registro.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-06.png) |
+|  S07   | Multimedia                     | Aprendi a usar contenido multimedia en HTML      | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Galeria.html) | [ver](recursos/) |
+|  S08   | SVG y repaso                   | Aprendi a crear svg a partir de codigo en HTML   | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Insignia.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-08.png) |
 <!--
   ─────────────────────────────────────────────────────────────────────
   DÓNDE PEGAR ESTO

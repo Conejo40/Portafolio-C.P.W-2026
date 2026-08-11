@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horario | sitio demo</title>
+     <!--Nuestros metadatos> -->
+    <meta name="description" content="sitio demo para el curso de codificacion de paginas web"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript, codficacion de paginas web"/>
+    <meta name="author" content="wallace"/>
+</head>
+<body>
+     <header>
+        <H1>Codificación de páginas web</H1>
+        <p>Sitio de demostración del módulo</p>
+         <!--Emmet: nav>ul>li*4>a-->
+         <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Articulo.html">Articulo</a></li>
+                <li><a href="Horario.html">Horario</a></li>
+                <li><a href="Registro.html">Registro</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a href="Insignia.html">Insignia</a></li>
+            </ul>
+         </nav>
+    </header>    
+
+    <H1>Horario y Guía del curso</H1>   
+    
+    <!--Lista desodenada-->
+    <!--Lista rápida con emmet UL>LI*#-->
+    <H2>Materiales del curso</H2>
+    <ul>
+        <li>Visual studio code</li>
+        <li>Cuenta de GitHub</li>
+        <li>Cuaderno de bitacora</li>
+    </ul>
+    <hr><br> <!--crea una linea divisoria en la pagina-->
+    <!--Lista ordenada-->
+    <H2>Como entregar una práctica</H2>
+    <!--emmet: OL>LI*-->
+    <ol start="01">
+        <li>Traer los cambios con un git pull</li>
+        <li>Crear una rama para la práctica con git switch -c "nombre de la rama"</li>
+        <li>Trabajar con commits atómicos</li>
+        <li>subir la rama con git push</li>
+        <li>Abrir un pull request con GitHub</li>
+        <li>Revisar y fusionar el pull request</li>
+        <li>Volver a la rama principal(main)</li>
+        <li>Eliminar la rama de la práctica con git branch -d "nombre de la rama"</li>
+    </ol>
+    <hr><br>
+    <!--Se pueden cambiar los atributos con TYPE= Start, Circle, square. Ejem <UL> Type=circle <UL>-->
+
+     <!--Lista descriptiva-->
+     <H2>Glosario git</H2>
+     <!--emmet: dl>(dl+dd)*#-->
+     <dl>
+        <dl><strong>Commit:</strong></dl>
+        <dd>Instantánea permanente del proyecto en un momento dado</dd>
+        <dl><strong>Rama:</strong></dl>
+        <dd>Línea de trabajo paralela que no afecta a la rama principal(main)</dd>
+        <dl><strong>Pull request:</strong></dl>
+        <dd>Solicitud de revisión para incorporar una rama</dd>
+     </dl>
+      <!--Lista anidada-->
+      <H2>Temario de la unidad con lista anidada</H2>
+      <!--emmet: Ul>li*#-->
+      <Ul>
+        <li>Estrutura de un documento web</li>
+            <ul>
+                <li>DOCTYPE Y HTML</li>
+                <li>HEAD Y METADATOS</li>
+            </ul>
+        </li>
+         <li>Contenido</li>
+            <ul>
+                <li>Textos y enlaces</li>
+                <li>Listas y tablas</li>
+            </ul>
+        </li>
+      </Ul>
+      <hr><br>
+
+      <!--Esqueleto de una tabla-->
+      <H2>Horario semanal</H2>
+      <table border="2">
+        <caption>Horario de clases del programa</caption>
+        <!--Encabezado de la tabla-->
+        <thead>
+            <tr>
+            <th scope="col">Día</th>
+            <th scope="col">Modalidad</th>
+            <th scope="col">Horario</th>
+            <th scope="col">Contenido</th>
+            </tr>
+        </thead>
+        <!--Cuerpo de una tabla-->
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>Presencial</td>
+                <td>1:30pm a 5:30pm</td>
+                <td>Listas y tablas</td>
+            </tr>
+             <!--Pie de tabla-->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"> <center>Total semanal 20 horas</center></td>
+            </tr>
+        </tfoot>
+      </table>
+
+
+</body>
+</html>

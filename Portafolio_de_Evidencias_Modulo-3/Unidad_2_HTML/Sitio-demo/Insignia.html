@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wallace Barboza">
+    <meta name="description" content="Insignia participación en el módulo CSTI12002">
+    <meta name="keywords" content="Insignia, participación, CSTI12002, INA">
+    <title>Insignia | sitio demo</title>
+</head>
+
+<body>
+    
+      <header id="inicio">
+    <h1>Codificación de páginas web</h1>
+    <p>Sitio de demostración del módulo <abbr title="Código del módulo">CSTI12002</abbr>.</p>
+
+    <nav>
+      <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="Articulo.html">Artículo</a></li>
+        <li><a href="Horario.html">Horario</a></li>
+        <li><a href="Registro.html">Registro</a></li>
+        <li><a href="Galeria.html">Galeria</a></li>
+        <li><a href="Insignia.html">Insignia</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="Contenido">
+    <article>
+        <H2>Graficas Vectoriales</H2>
+        <!--SVG en linea: Se dibuja con código (seccion 8)-->
+        <section id="Insignia">
+            <H3>Insignia del módulo</H3>
+            <svg width="200" height="200"
+                viewbox="0 0 200 200"
+                xmlns="http://www.w3.org/2000/svg">
+                <!--CYRCLE: Se ubica por su centro (cx, cy)-->
+                <circle cx="100" cy="100" r="85"/>
+
+                <circle cx="100" cy="100" r="72" fill="#f910f9" stroke="IF4E74" stroke-wedth="2"/>
+
+                        <!--Text:Código para poner texto -->
+
+                        <text x="100" y="170" text-anchor="middle" font-size="14" fill="#1F4E79">HTML</text>
+                           
+
+                 <!--Polygon: Lista de vértices, la figura se cierra sola-->
+                 <Polygon points="100,45 112,80 149,80 119,102 130,137 100,115 70,137 81,102 51,80 88,80"
+                 fill="#F5CS518"></Polygon>
+                 </svg>
+        </section>
+    </article>
+        <section id="externo">
+        <H3>La misma insignia como archivo</H3>
+        <img src="/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos_01/insignia.svg" alt="Insignia del módulo con una estrella sobre un circulo" width="100" height="100">
+        </section>
+  </main>
+
+    <footer>
+    <h2>Contacto</h2>
+    <address>
+      Instituto Nacional de Aprendizaje<br>
+      Correo: <a href="mailto:wallace@ejemplo.com">wallace@ejemplo.com</a>
+    </address>
+    <p><small>&copy; 2026 &middot; INA &middot; Todos los derechos reservados</small></p>
+  </footer> 
+
+</body>
+</html>
