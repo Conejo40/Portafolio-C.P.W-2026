@@ -1,15 +1,65 @@
 html{
 font-size: 100;
 }
-
-*{
+/*Es un reset se usa para anular los por defecto que tienen los navegadores,
+tambien sirve para darle propiedades a las etiquetas que aun no tienen propiedades en css*/
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #706363;
+    background-color: #fbf8f8;
 }
 
 h1{
     color: red;
     font-size: 32px;
     text-align: center;
+}
+/* fin de la seccion 11*/
+
+/*Inicio de la seccion 12*/
+
+/*Aplicar estilos a clases*/
+.destacado{
+    background-color:#fff3cd;
+    padding: 10px;
+}
+
+/*Aplicar estilos a id*/
+#inicio{
+    background-color: #1f4e79;
+    padding: 30px;
+}
+
+/*Estilos solo a enlaces dentro del nav*/
+nav a{
+    color: #fff;
+    margin-right: 30px;
+    transition: color 0.3s; /*Cambio suave*/
+}
+
+nav a:hover{
+    color: #f8cbad;
+}
+
+/*Pseudo-clase :nth-child filas cebra en la tabla*/
+tbody tr:nth-child(even){
+    background-color: #e0d8d8;
+}
+
+/*Pseudo-elemento ::first-letter y ::selection*/
+article p::first-letter{
+    font-size: 32px;
+    font-weight: bold;
+    color: #c55a11;
+}
+
+::selection{
+    background-color: #1f4e79;
+    color: white;
 }
