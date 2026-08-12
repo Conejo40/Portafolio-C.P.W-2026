@@ -64,6 +64,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 30px;
+    display: inline-block;
 }
 
 div a:hover{
