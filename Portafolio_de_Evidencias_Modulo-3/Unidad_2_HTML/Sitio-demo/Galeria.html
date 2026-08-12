@@ -7,6 +7,7 @@
     <meta name="description" content="Imagen de la galería con contendo relacionado con HTML5">
     <meta name="keywords" content="HTML5, estándar vivo, formatos, W3C, imágenes de laboratorio">
     <title>Galería | multimedia</title>
+    <link rel="icon" href="recursos/favicon.png" type="image/png" />
 </head>
 <body>
     <header id="inicio">
@@ -27,21 +28,38 @@
         <article>
             <H2>Galería de imagenes, audios y videos</H2>
             <section>
+              <H3>Imagenes</H3>
+              <picture>
+              <img src="recursos/lab1.jpg" alt="imagen de un laboratorio" width="600">
+              <source srcset="recursos/lab1.jpg" alt="imagen de un laboratorio" width="600"/>
+              <source srcset="recursos/lab1.png" alt="imagen de un laboratorio" width="600"/>
+              <figcaption>Este espacio es para ver el laboratorio de trabajo</figcaption>
+              </picture>
+
+              <picture>
+              <img src="recursos/lab2.jpg" alt="imagen de un laboratorio" width="600">
+              <source srcset="recursos/lab2.jpg" alt="imagen de un laboratorio" width="600"/>
+              <source srcset="recursos/lab2.png" alt="imagen de un laboratorio" width="600"/>
+              </picture>
+            </section>
+
+            <section>
               <h3>Audios</h3>
-              <audio controls>
-                  <source src="Recursos/Relax.mp3" type="Relax.mp3">
-                  <source src="Recursos/Relax.ogg" type="Relax.ogg">
-                  <p>Pulsa Aquí para<a href="Recursos/video2.mp4" download>descargar audio</a></p>
+            <audio controls>
+                <source src="Recursos/Relax.mp3" type="audio/mp3">
+                <source src="Recursos/Relax.ogg" type="audio/ogg">
+                <p> Tu navegador no soporta la reproducción de audio. <a href="Recursos/Relax.mp3" download>Descargar audio</a></p>
+            </audio>
 
             </section>
             <section>
               <h3>Videos</h3>
-              <video controls width="400" poster="Recursos/tutorial.jpg" preload="metadata">
-                <source src="Recursos/video2.mp4" type="video2.mp4">
-                <source src="Recursos/video2.ogg" type="video2.ogg">
-                <track kind="subtitles" src="Recursos/Video_2.vtt" srclang="es" label="Español" default>
-                <p>Pulsa Aquí para<a href="Recursos/video2.mp4" download>descargar video</a></p>
+              <video controls width="400" poster="recursos/poster.jpg" preload="metadata">
+              <source src="recursos/video2.mp4" type="video/mp4"/>
+              <source src="recursos/video2.ogg" type="video/ogg"/>
+              <p>Tu navegador no soporta la reproducción de video. <a href="recursos/video2.mp4" download>Descargar video Aquí</a></p>
               </video>
+              
             </section>
             
         </article>
