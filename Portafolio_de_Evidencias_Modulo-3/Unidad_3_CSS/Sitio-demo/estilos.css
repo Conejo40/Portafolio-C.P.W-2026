@@ -77,6 +77,13 @@ article p::first-letter{
 
 /*Fin de la seccion 12*/
 
+/*Inicio de la seccion 14*/
+blockquote{
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #1f4e79;
+}
+
 /*Inicio de la seccion 15*/
 .figura-destacada{
     position: relative;/*lo posiciona como elemento padre y este no se mueve. Es referencias a hijos absolutos*/
