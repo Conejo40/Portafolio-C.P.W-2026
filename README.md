@@ -52,10 +52,10 @@ Portafolio-Codificación de Páginas Web/
 | :----: | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------: | :---------------------------------------------------------------: |
 |  S01   | Git y GitHub | _En esta clase aprendi a crear ramas y trabajar de forma colaborativa para crear una rama principal con los contenidos de todos los intergrantes, algunos de los comandos usados son: git branch (Para ver las ramas), git switch -c (Para crear una rama) y git checkout -b (Tambien para crear rama)._ | [ver](Unidad_1_control_de_versiones/Clase-20-7-2026) | [ver](recursos/Captura%20de%20pantalla%202026-07-23%20145218.png) |
 
-<details markdown="1">
+<details>
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
-| Sesión | Tema                           | Qué aprendí                                      |      Trabajo      |     Captura      |
+| Sesión | Tema                             | Qué aprendí                                      |       Trabajo       |      Captura       |
 | :----: | :----------------------------- | :----------------------------------------------- | :---------------: | :--------------: |
 |  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos para trabajo colaborativo | [ver](unidad-02/) | [ver](recursos/) |
 |  S03   | Estructura del documento HTML5 | Aprendi a hacer la estructura basica en HTML     | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Index.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-03.png) |
@@ -64,6 +64,7 @@ Portafolio-Codificación de Páginas Web/
 |  S06   | Formularios y semántica        | Aprendi a crear formularios en HTML              | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Registro.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-06.png) |
 |  S07   | Multimedia                     | Aprendi a usar contenido multimedia en HTML      | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Galeria.html) | [ver](recursos/) |
 |  S08   | SVG y repaso                   | Aprendi a crear svg a partir de codigo en HTML   | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Insignia.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-08.png) |
+
 <!--
   ─────────────────────────────────────────────────────────────────────
   DÓNDE PEGAR ESTO
@@ -105,7 +106,7 @@ Proyecto propio construido de forma autónoma.
   <img src="recursos/sp-vista-index.png" width="600" alt="Portada del sitio personal">
 </p>
 
-<div align="center" markdown="1">
+<div align="center">
 
 *Portada del sitio personal al cerrar la Unidad 2.*
 
@@ -113,6 +114,7 @@ Proyecto propio construido de forma autónoma.
 
 **Comprobado en dos navegadores:**
 [Chrome](recursos/sp-navegador-chrome.png) · [Firefox](recursos/sp-navegador-firefox.png)
+
 </details>
 
 <details markdown="1">
