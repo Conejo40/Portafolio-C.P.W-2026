@@ -84,6 +84,45 @@ blockquote{
     border-left: 4px solid #1f4e79;
 }
 
+/*tabla del calendario*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+caption{
+    padding: 8px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+figure{
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+section{
+    margin-bottom: 32px;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+/*Aplica a la parte vertical y horizontal el auto: reparte el espacio sobrante a ambos lados, lo centra en un
+elemento con ancho limitado de max-width: 1000px*/
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+/*Coloca las opciones del menu en linea, una al lado del otro*/
+/*Visibility: hidden; oculta la linea del menu, pero sigue existiendo*/
+/*Display: none; oculta la linea del menu y libera el espacio*/
+
 /*Inicio de la seccion 15*/
 .figura-destacada{
     position: relative;/*lo posiciona como elemento padre y este no se mueve. Es referencias a hijos absolutos*/
