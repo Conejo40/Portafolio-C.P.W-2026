@@ -38,8 +38,11 @@ h1{
     left: 0;
     width: 100%;
     background-color: #1f4e79;
-    padding: 30px;
+    padding: 12px 20px;
     z-index: 100; 
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /*#inicio{
@@ -115,13 +118,15 @@ section{
 /*Aplica a la parte vertical y horizontal el auto: reparte el espacio sobrante a ambos lados, lo centra en un
 elemento con ancho limitado de max-width: 1000px*/
 
-nav li{
-    display: inline-block;
-    margin-right: 15px;
+header nav li{
+   /* display: inline-block;
+    margin-right: 15px; */
 }
 /*Coloca las opciones del menu en linea, una al lado del otro*/
 /*Visibility: hidden; oculta la linea del menu, pero sigue existiendo*/
 /*Display: none; oculta la linea del menu y libera el espacio*/
+
+/*fin de la seccion 14*/
 
 /*Inicio de la seccion 15*/
 .figura-destacada{
@@ -147,3 +152,56 @@ escala de valores de z-index
 9999 no hace falta usarlo casi nunca porque no deja margen a otro valor por encima*/
 
 /*Fin de la seccion 15*/
+
+/*inicio de la seccion 16 flex-box*/
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px; /*separador uniforme entre elementos*/
+    justify-content: space-evenly;
+
+}
+/*Display: flex; Activa el flexbox y coloca en filas horizontales los elementos por defecto*/
+
+.centrado{
+    display: flex;
+    justify-content: center;/*centrado horizontal*/
+    align-items: center;/*centrado vertical*/
+}
+
+header nav{
+    align-self: center;
+    /*anula el align-items para el elemento especifico*/
+}
+
+.fila-tarjetas{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /*padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;*/
+}
+/*wrap salta hacia abajo, wrap-reverse salta hacia arriba y nowrap no salta a ningun lado*/
+
+.tarjeta{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: #dce6f1;
+    padding: 20px;
+    margin-top: 32px;
+}
+/*fin de la seccion 16*/
