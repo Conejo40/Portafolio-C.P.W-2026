@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <!--CYRCLE: Se ubica por su centro (cx, cy)-->
+                <circle cx="100" cy="100" r="85"></circle>
+
+                <circle cx="100" cy="100" r="72" fill="#f910f9" stroke="IF4E74" stroke-wedth="2"></circle>
+
+                        <!--Text:Código para poner texto -->
+
+                        <text x="100" y="170" text-anchor="middle" font-size="14" fill="#1F4E79">HTML</text>
+                           
+
+                 <!--Polygon: Lista de vértices, la figura se cierra sola-->
+                 <polygon points="100,45 112,80 149,80 119,102 130,137 100,115 70,137 81,102 51,80 88,80" fill="#F5CS518"></polygon>
+                 </svg>

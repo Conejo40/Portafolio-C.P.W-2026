@@ -244,10 +244,10 @@ footer{
     repetir un nombre hace que una zona abarque varias celdas.
     Aqui el indice ocupa 2 filas de la primera columna*/
     /*Asignar cada elemento a su area*/
-    #contenido > nav (grid-area: indice;)
+    /*#contenido > nav (grid-area: indice;)
     #contenido > article (grid-area: principal;)
     #contenido > aside (grid-area: lateral;)
-    grid-template-areas: 'indice principal';
+    grid-template-areas: 'indice principal';*/
 }
 
 /*Que las imagenes no se deformen*/
