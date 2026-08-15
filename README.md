@@ -50,7 +50,7 @@ Portafolio-Codificación de Páginas Web/
 
 | Sesión | Tema         | Qué aprendí                                                                                                                                                                                                                                                                                              |                       Trabajo                        |                              Captura                              |
 | :----: | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------: | :---------------------------------------------------------------: |
-|  S01   | Git y GitHub | _En esta clase aprendi a crear ramas y trabajar de forma colaborativa para crear una rama principal con los contenidos de todos los intergrantes, algunos de los comandos usados son: git branch (Para ver las ramas), git switch -c (Para crear una rama) y git checkout -b (Tambien para crear rama)._ | [ver](Unidad_1_control_de_versiones/Clase-20-7-2026) | [ver](recursos/Captura%20de%20pantalla%202026-07-23%20145218.png) |
+|  S01   | Git y GitHub | _En esta clase aprendi a crear ramas y trabajar de forma colaborativa para crear una rama principal con los contenidos de todos los intergrantes, algunos de los comandos usados son: git branch (Para ver las ramas), git switch -c (Para crear una rama) y git checkout -b (Tambien para crear rama)._ | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_1_control_de_versiones/Clase-20-7-2026/E-20-7-2026.png) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_1_control_de_versiones/Clase-20-7-2026/E-20-7-2026.png) |
 
 <details markdown="1">
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
@@ -118,18 +118,18 @@ Proyecto propio construido de forma autónoma.
 <details markdown="1">
 <summary><b>Unidad 3 · Codificación de hojas de estilo</b> (sesiones 11 a 20)</summary>
 
-| Sesión | Tema                       | Qué aprendí |      Trabajo      |     Captura      |
-| :----: | :------------------------- | :---------- | :---------------: | :--------------: |
-|  S11   | Introducción a CSS         |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S12   | Selectores y pseudo-clases |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S13   | Tipografía y color         |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S14   | Modelo de cajas            |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S15   | Display y posicionamiento  |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S16   | Flexbox                    |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S17   | CSS Grid                   |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S18   | Componentes estilizados    |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S19   | Animaciones y filtros      |             | [ver](unidad-03/) | [ver](recursos/) |
-|  S20   | SCSS y repaso              |             | [ver](unidad-03/) | [ver](recursos/) |
+| Sesión | Tema                       |                     Qué aprendí                       |      Trabajo      |     Captura      |
+| :----: | :------------------------- |:----------------------------------------------------: | :---------------: | :--------------: |
+|  S11   | Introducción a CSS         | Aprendi a como se trabaja con css                     | [ver](unidad-03/) | [ver](recursos/) |
+|  S12   | Selectores y pseudo-clases | Aprendi a usar los selectores y clases en css         | [ver](unidad-03/) | [ver](recursos/) |
+|  S13   | Tipografía y color         | Aprendi a darle color y fuente a mi pagina con css    | [ver](unidad-03/) | [ver](recursos/) |
+|  S14   | Modelo de cajas            | Aprendi sobre el modelo de cajas y como hacerlo en css| [ver](unidad-03/) | [ver](recursos/) |
+|  S15   | Display y posicionamiento  | Aprendi sobre el posicionamiento y como hacerlo en css| [ver](unidad-03/) | [ver](recursos/) |
+|  S16   | Flexbox                    | Aprendi a usar flex en css para el html               | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_3_CSS/Sitio-demo/index.html) | [ver](recursos/) |
+|  S17   | CSS Grid                   | Aprendi a usar grid en css para el html               | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_3_CSS/Sitio-demo/Insignia.html) | [ver](recursos/) |
+|  S18   | Componentes estilizados    |                                                       | [ver](unidad-03/) | [ver](recursos/) |
+|  S19   | Animaciones y filtros      |                                                       | [ver](unidad-03/) | [ver](recursos/) |
+|  S20   | SCSS y repaso              |                                                       | [ver](unidad-03/) | [ver](recursos/) |
 
 </details>
 
