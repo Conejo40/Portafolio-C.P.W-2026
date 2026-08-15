@@ -205,3 +205,63 @@ footer{
     margin-top: 32px;
 }
 /*fin de la seccion 16*/
+
+/*Inicio de la seccion 17 Grid*/
+.galeria-grid{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 2fr 1fr;/*la primera es doble que la otra*/
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+
+}
+/*activa gid al igual que flex, se declara en el contenedor*/
+
+.galeria-grid figure:first-of-type{
+    grid-column: 1 / 3; /*desde la linea 1 hasta la 3: abarca 1 2
+    el segundo numero es donde la linea termmina, no la ultima columna que ocupa*/
+
+}
+
+.galeria-grid figure:first-of-type{
+    grid-column: span 2;/*Ocupa 2 columnas, desde donde le toque. Mas legible y no depende de una posicion*/
+}
+
+/*con filas*/
+.destacado{
+    grid-row: span 2; /*Abarca 2  filas*/
+}
+
+#contenido{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 24px;
+
+    grid-template-areas: 'indice principal' 'indice lateral';
+    /*CSS dibuja la estructura, cada cadena de texto es una fila
+    cada palabra dentro es una celda
+    repetir un nombre hace que una zona abarque varias celdas.
+    Aqui el indice ocupa 2 filas de la primera columna*/
+    /*Asignar cada elemento a su area*/
+    #contenido > nav (grid-area: indice;)
+    #contenido > article (grid-area: principal;)
+    #contenido > aside (grid-area: lateral;)
+    grid-template-areas: 'indice principal';
+}
+
+/*Que las imagenes no se deformen*/
+.galeria-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /*Recorta por el centro en vez de deformar*/
+    border-radius: 6px;
+}
+
+.tarjeta2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+
+}
+/*Fin de la seccion 17*/
