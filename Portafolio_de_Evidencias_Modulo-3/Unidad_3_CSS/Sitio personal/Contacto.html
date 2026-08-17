@@ -28,10 +28,10 @@
         <h2>Formulario de citas</h2>
         <p></p>
 
-        <article>
+        <article class="formulario">
             <h3>Reserva</h3>
             <form action="#" method="post">
-                <fieldset>
+                <fieldset class="datos-personales">
                     <legend>Datos de personales</legend>
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre"  minlength="8" maxlength="30" placeholder="Ingrese su nombre" required>
@@ -92,8 +92,11 @@
                     <legend>Comentarios</legend>
                     <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Ingrese sus comentarios aquí..."></textarea>
                 </fieldset>
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar</button>
+                <p class="botones " class="boton">
+                    <button type="submit">Enviar</button>
+                    <button  class="boton-secundario" type="reset">Borrar</button>
+                </p>
+                
             </form>
 
         </article>

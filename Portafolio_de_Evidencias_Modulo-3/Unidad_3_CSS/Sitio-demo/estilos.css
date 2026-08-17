@@ -191,7 +191,19 @@ header nav{
 .tarjeta{
     display: flex;
     flex: 1;
+    background-color: rgb(246, 245, 245,);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
+    /*0 de desplazamiento horizontal, 4 de desplazamiento vertical, 12 de desenfoque, mientras sea mayor más dfuso*/
     gap: 20px;
+}
+
+.tarjeta:hover{
+    transform: translate(-5px);
+    /*Valor positivo va hacia abajo y el valor negativo va hacia arriba*/
+    box-shadow: 0px 20px rgba(0, 0, 0, 0.15);
+
 }
 
 footer{
@@ -265,3 +277,8 @@ footer{
 
 }
 /*Fin de la seccion 17*/
+
+/*Inicio de la seccion 18*/
+
+
+
