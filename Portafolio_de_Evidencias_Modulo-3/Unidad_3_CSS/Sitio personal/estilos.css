@@ -68,12 +68,17 @@ header{
     gap: 20px;
     /*display: inline-block;*/
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+}
 header nav{
     align-self: center;
 }
 header nav ul{
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     list-style-type: none;
     align-items: center;
     gap: 20px;
@@ -81,6 +86,7 @@ header nav ul{
 
 nav ul{
     display: flex;
+    flex-direction: row;
     justify-content: baseline;
     gap: 20px;
 }
@@ -214,4 +220,64 @@ header a nav:hover{
 
 button{
     transition: all 1.3s ease;
+}
+/*Fin de la seccion 19*/
+
+/*Trabajo en galeria*/
+.imagenes{
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+}
+
+@keyframes rotar{
+    0%{
+        transform: rotate(-3deg);
+    }
+
+    25%{
+      transform: rotate(0deg);  
+    }
+
+    50%{
+        transform: rotate(3deg);  
+    }
+
+    100%{
+        transform: rotate(-3deg);  
+    }
+    
+}
+
+img{
+    animation: rotar 3s infinite;
+}
+
+img:hover{
+    filter: grayscale(1) brightness(1.1);
+    transition: all 2s ease;
+}
+
+.imagenes:hover{
+    color: #a8490d;
+}
+
+.horario{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirmacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+}
+
+figure{
+    width: 300px;
 }
