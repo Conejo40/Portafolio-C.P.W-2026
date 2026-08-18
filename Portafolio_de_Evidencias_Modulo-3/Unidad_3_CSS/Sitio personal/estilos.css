@@ -199,3 +199,19 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     border-radius: 8px;
 }
 
+/*Fin de la seccion 18*/
+
+/*Inicio de la seccion 19*/
+header a nav:hover{
+    color: #f8cbad;
+    transition: 0.3s;
+    transform: translateY(10px);
+    /*Ease: arranca lento, acelera y frena por omision*/
+    /*Ease-in: arranca lento*/
+    /*Ease-out: sale rapido*/
+    /*Easeint-out: hace las dos anteriores*/
+}
+
+button{
+    transition: all 1.3s ease;
+}
