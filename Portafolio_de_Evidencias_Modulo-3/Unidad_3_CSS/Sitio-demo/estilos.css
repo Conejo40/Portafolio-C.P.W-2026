@@ -1,5 +1,5 @@
 html{
-font-size: 100;
+font-size: 100%;
 }
 /*Es un reset se usa para anular los por defecto que tienen los navegadores,
 tambien sirve para darle propiedades a las etiquetas que aun no tienen propiedades en css*/
@@ -191,7 +191,7 @@ header nav{
 .tarjeta{
     display: flex;
     flex: 1;
-    background-color: rgb(246, 245, 245,);
+    background-color: rgb(246, 245, 245);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
@@ -303,7 +303,7 @@ button{
 
 /*Definir la transicion*/
 @keyframes aparecer{
-    form{
+    from{
         opacity: 0;
         transform: translateY(20px);
     }
