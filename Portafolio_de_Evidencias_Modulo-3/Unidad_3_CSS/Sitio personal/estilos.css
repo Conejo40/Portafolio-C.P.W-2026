@@ -1,5 +1,5 @@
 html{
-font-size: 100;
+font-size: 100%;
 }
 
 *{
@@ -11,7 +11,7 @@ font-size: 100;
 body{
 
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(204, 206, 208);
+    background-color: #DCE1E7;
     font-size: 1rem;
     line-height: 1.6;
 }
@@ -25,13 +25,23 @@ h1{
     transition: all 1s ease;
 }
 
+.contenido ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
 .destacado{
     padding: 10px;
 }
 
 h2{
+    color: #A85D30;
     font-size: 2rem;
     font-weight: bold;
+}
+
+h3{
+    margin-top: 10px;
 }
 
 p{
@@ -42,7 +52,7 @@ p{
 /*CH es el ancho del caracter, el valor 70 marca un rango de lectura comoda por linea o renglon, mas larga la vista se pierde*/
 
 p{
-    max-width: 70ch;
+    max-width: 100ch;
     transition: all 1s ease;
     display: block;
 }
@@ -53,19 +63,20 @@ h1:hover{
 
 nav a:hover{
     text-decoration: none;
-    color: rgb(201, 56, 194);
+    color: #421908;
     
 }
 
-header{
+header, footer{
     display: flex;
     justify-content: space-between;
-    background-color: aliceblue;
+    background-color: #CE8B5C;
     /*background-image: url(Recursos/fondo.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     padding: 30px;
     gap: 20px;
+    z-index: 100;
     /*display: inline-block;*/
 }
 
@@ -78,10 +89,10 @@ header nav{
 }
 header nav ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 nav ul{
@@ -93,11 +104,11 @@ nav ul{
 
 div a:hover{
     text-decoration: none;
-    color: rgb(201, 56, 194);
+    color: #421908;
 }
 
 #bienvenida{
-    color: rgb(133, 161, 68);
+    color: #A85D30;
 }
 
 /*Inicio de la seccion 18*/
@@ -112,11 +123,16 @@ caption{
 }
 
 thead tr{
-    background-color: #1f4e79;
+    background-color: #A85D30;
 }
 
 tbody tr:hover{
-    background-color: #e3eef9;
+    background-color: #ECCCB4;
+}
+
+.listas{
+    list-style-type: none;
+    padding: 30px;
 }
 
 table{
@@ -261,7 +277,15 @@ img:hover{
     transition: all 2s ease;
 }
 
-.imagenes:hover{
+.imagene1:hover{
+    color: #a8490d;
+}
+
+.imagene2:hover{
+    color: #a8490d;
+}
+
+.imagene3:hover{
     color: #a8490d;
 }
 
@@ -280,4 +304,32 @@ img:hover{
 
 figure{
     width: 300px;
+}
+
+/*Footer*/
+
+/* #footer{
+    background-color: #CE8B5C;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+} */
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    animation: aparecer 4s ease;
 }

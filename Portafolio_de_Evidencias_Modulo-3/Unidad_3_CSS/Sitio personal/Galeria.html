@@ -34,19 +34,30 @@
             <h3>Galería de Imágenes</h3>
             <p>¡Bienvenido a nuestra galería! Aquí puedes ver algunos de nuestros servicios.</p>
             <div class="imagenes">
-            <img src="Recursos/Cafe_miau.jpg" alt="Imagen de una cafetería de gatos" width="300px" height="400px">
+            <div class="imagene1">
+            <picture>
+                <img src="Recursos/Cafe_miau.jpg" alt="Imagen de una cafetería de gatos" width="300px" height="400px">
+                <figcaption>Disfruta con nosotros de un momento ameno</figcaption>
+            </picture>
+            </div>
 
+            <div class="imagene2">
             <figure>
                 <img src="Recursos/Postres.jpg" alt="Imagen de postres de la cafeteria" width="300" height="400px" >
                 <figcaption>En este espacio puedes ver nuestros deliciosos postres</figcaption>
             </figure>
+            </div>
+
+            <div class="imagene3">
             <picture>
                 <source srcset="Recursos/Tipos_de_cafes.jpg" type="image/jpg">
                 <source srcset="Recursos/Tipos_de_cafes.png" type="image/png">
                 <img src="Recursos/Tipos_de_cafes.jpg" alt="Imagen de diferentes tipos de café" width="300" height="400px" >
-                <figcaption>Aquí puedes ver varios de nuestros cafes</figcaption>
+                <figcaption>Aquí puedes ver varios de nuestros  tipos de cafes</figcaption>
             </picture>
             </div>
+            </div>
+            
         </section>
         <section>
             <h3>Galería de audios</h3>
@@ -66,12 +77,16 @@
                 <p>Tu navegador no soporta la reproducción de video. <a href="Recursos/Cafeteria.mp4" download>Descargar video</a></p>
             </video>
         </section>
-        <section id="externo">
-        <H3>logo de Cafe miau</H3>
-        <img src="Recursos/gt.svg" alt="Insignia del módulo con una estrella sobre un circulo" width="100" height="100">
-        </section>
-        
     </article>
+    <hr> <!-- salto de página -->
+    <!-- Este es el pie de página -->
+    <footer id="footer">
+        <address>
+            Correo electrónico: <a href="wallace@ejemplo.com">wallace@ejemplo.com</a>
+        </address> 
+        
+        <p>&copy; 2026 Café Miau. Todos los derechos reservados.</p>
+    </footer>
 </body>
 
 </html>
