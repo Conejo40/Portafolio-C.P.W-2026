@@ -147,3 +147,60 @@ img{
     margin-top: var(--esp-md);
     margin-bottom: var(--esp-xs);
 }
+
+/*Cabecera y menu*/
+
+.cabecera{
+    display: flex; /*Activa el flebox*/
+    justify-content: space-between;/*Colocando el primer al inicio y el segundo al final*/
+    align-items: center;
+    padding: var(--esp-sm) var(--esp-md);
+    border-bottom: 0.1rem solid var(--color-linea);
+    position: fixed;
+    z-index: 100;/*Solo funciona si hay un elemento con posicion*/
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: var(--esp-xs);
+    color: var(--color-marca);
+}
+.logo:hover .logo-icono{
+    translate: rotate(-8deg);/*cuando el cursor este sobre el logo se rota -8 grados*/
+}
+
+.logo-texto{
+    font-family: var(--fuente-titulo);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    gap: var(--esp-sm);
+    list-style: none;
+}
+
+.menu-enlace{
+    display: inline-block;/*Esta linea permite aplicar relleno vertical*/
+    padding: var(--esp-xs) var(--esp-md);
+    color: var(--color-tinta);
+    font-weight: 600;
+    border-radius: var(--radio);
+    transition: background-color var(--transition), color var(--transition);
+}
+
+.menu-enlace:hover{
+    background-color: var(--color-fondo-alt);
+    color: var(--color-marca);
+}
+
+.menu-enlace:focus{
+    outline: 0.2rem solid var(--color-acento);
+    outline-offset: 0.2rem;/*Se activa con la tecla tab al llegar el enlace, permite navegar el sitio con el tecldo*/
+}
+
+.menu-enlace.activo{/*Dos clases en el mismo elemento, esto sinifica que el elemento que tenga 2 clases es el elemento activo*/
+    color: var(--color-acento);
+}
