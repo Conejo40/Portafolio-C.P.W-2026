@@ -152,7 +152,7 @@ img{
 
 .cabecera{
     display: flex; /*Activa el flebox*/
-    justify-content: space-between;/*Colocando el primer al inicio y el segundo al final*/
+    justify-content: center;/*Colocando el primer al inicio y el segundo al final*/
     align-items: center;
     padding: var(--esp-sm) var(--esp-md);
     border-bottom: 0.1rem solid var(--color-linea);
@@ -203,4 +203,173 @@ img{
 
 .menu-enlace.activo{/*Dos clases en el mismo elemento, esto sinifica que el elemento que tenga 2 clases es el elemento activo*/
     color: var(--color-acento);
+}
+
+/*Portada*/
+/*Aqui va la imagen de fondo*/
+.portada{
+    background-image: url(recursos/portada.webp);
+    background-color: var(--color-marca);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;/*Si la imagen fuera mas pequeña que el contenedor no se repetiria*/
+    min-height: 55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--esp-md);
+    text-align: center;
+}
+
+.portada-caja{
+    background-color: rgba(0,0,0,0.45);
+    padding: var(--esp-lg);
+    border-radius: var(--radio);
+    max-width: 70rem;
+}
+
+.portada-titulo{
+    color: var(--color-blanco);
+    margin-bottom: var(--esp-sm);
+}
+
+.portada-bajada{
+    color: var(--color-blanco);
+    font-size: 1.8rem;
+    margin-bottom: var(--esp-md);
+}
+
+/*Servicios Flexbox*/
+.fila-servicios{
+    display: flex;
+    gap: var(--esp-md);
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    flex: 1 1 30rem;/* 1 flex grow: si sobra espacio crece, 1 flex shrink: si falta el espacio se encoge, 30rem flex-basics: parte de un tamaño base de 300px*/
+    background-color: var(--color-blanco);
+    padding: var(--esp-md);
+    border-radius: var(--radio);
+    box-shadow: var(--sombra-2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.tarjeta-icono{
+    color: var(--color-acento); margin: 0 auto;
+}
+
+.tarjeta-titulo{
+    margin-bottom: var(--esp-xs);
+}
+
+.tarjeta-texto{
+    color: var(--color-suave);
+    flex-grow: 1;/*En 1 hace que el parrafo adsorba todo el espacio vertical sobrante en la tarjeta*/
+}
+
+.tarjeta-precio{
+    font-weight: 700;
+    color: var(--color-marca);
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    padding-top: var(--esp-sm);
+    border-top: 0.1rem var(--color-linea);
+}
+
+/*Galeria CSS GRID*/
+/*GRID 2 dimenciones, cuadriculas de l=filas y columnas*/
+
+.rejilla-galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(28rem, 1fr));
+    /*se lee de adrentro hacia afuera mimax(28rem, 1fr) hace que cada columna mida 280px y como maximo 1 fraccion del espacio disponible. repeat(auto-fit: crea tantas columnas como quepan en esa medida; Juntas ponen tadas las colunas que quepan en 280px y reparte el espacio sobrante entre ellas*/
+    gap: var(--esp-sm);
+}
+
+.galeria-pieza{
+    position: relative;/*No mueve la figura, la declra como punto referente para los hijos*/
+    overflow: hidden;/*Recorta lo que sobresale de los limites de la figura. Permite que la img se agrande al pasar el cursor sin invadir a las figuras vecinas*/
+    border-radius: var(--radio);
+    box-shadow: var(--sombra-1);
+}
+
+.galeria-destacada{
+    grid-column: span 2;/*ocupa 2 columnas*/
+    grid-row: span 2;/*Ocupa 2 filas*/
+}
+
+.galeria-pieza img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Recorta la imagen por el medio para no deformarla*/
+    transition: transform 0.4s ease, filter 0.4s ease;
+    filter: grayscale(60%);/*El filtro quita el 60% del color*/
+}
+
+.galeria-pieza:hover{
+    transform: scale(1.6);
+    filter: grayscale(0);/*La imagen recupera el color*/
+}
+
+.galeria-pie{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;/*adsolute se ubica con respecto al elemento mas cercano con posicion relativa*/
+    background-color: rgba(0, 0, 0, 0.65);
+    color: var(--color-blanco);
+    font-size: 1.3rem;
+    text-align: center;
+    transform: translateY(100%);/*Lo desplaza hacia abajo el 100% de su altura*/
+    transition: transform var(--transition);
+}
+
+.galeria-pieza:hover .galeria-pie{
+    transform: translateY(0);/*El pie de foto vuelve a su posicion deslizandose desde abajo*/
+}
+
+.rejilla-equipo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(24rem, 1fr));
+    gap: var(--esp-md);
+}
+
+.ficha{
+    background-color: var(--color-blanco);
+    padding: var(--esp-md);
+    border-radius: var(--radio);
+    box-shadow: var(--sombra-1);
+    text-align: center;
+    transition: transform var(--transition) box-shadow var(--transition);
+}
+
+.ficha-foto{
+    width: 14rem;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto var(--esp-md);
+    border: 0.3rem solid var(--color-fondo-alt);
+}
+
+.ficha-nombre{
+    margin-bottom: 0.2rem;
+}
+
+.ficha-rol{
+    color: var(--color-acento);
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: var(--esp-xs);
+}
+
+.ficha-texto{
+    color: var(--color-suave);
+    margin-bottom: 0;
 }
