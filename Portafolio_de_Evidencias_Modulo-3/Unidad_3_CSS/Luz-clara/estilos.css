@@ -152,12 +152,13 @@ img{
 
 .cabecera{
     display: flex; /*Activa el flebox*/
-    justify-content: center;/*Colocando el primer al inicio y el segundo al final*/
+    justify-content: space-between;/*Colocando el primer al inicio y el segundo al final*/
     align-items: center;
     padding: var(--esp-sm) var(--esp-md);
     border-bottom: 0.1rem solid var(--color-linea);
     position: fixed;
-    z-index: 100;/*Solo funciona si hay un elemento con posicion*/
+    /*Solo funciona si hay un elemento con posicion*/
+    width: 100%;
 }
 
 .logo{
