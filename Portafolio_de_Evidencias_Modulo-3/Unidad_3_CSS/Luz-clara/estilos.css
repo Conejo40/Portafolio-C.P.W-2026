@@ -286,7 +286,7 @@ img{
 
 .rejilla-galeria{
     display: grid;
-    grid-template-columns: repeat(auto-fit, mimax(28rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     /*se lee de adrentro hacia afuera mimax(28rem, 1fr) hace que cada columna mida 280px y como maximo 1 fraccion del espacio disponible. repeat(auto-fit: crea tantas columnas como quepan en esa medida; Juntas ponen tadas las colunas que quepan en 280px y reparte el espacio sobrante entre ellas*/
     gap: var(--esp-sm);
 }
@@ -299,6 +299,7 @@ img{
 }
 
 .galeria-destacada{
+    display: grid;
     grid-column: span 2;/*ocupa 2 columnas*/
     grid-row: span 2;/*Ocupa 2 filas*/
 }
@@ -335,7 +336,7 @@ img{
 
 .rejilla-equipo{
     display: grid;
-    grid-template-columns: repeat(auto-fit, mimax(24rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
     gap: var(--esp-md);
 }
 
