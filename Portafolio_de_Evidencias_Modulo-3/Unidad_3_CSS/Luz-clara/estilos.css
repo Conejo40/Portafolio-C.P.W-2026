@@ -20,11 +20,11 @@
 
     /*Espaciado conversion 1rem=10px*/
 
-    --esp-xs: 0.08rem;
+    --esp-xs: 0.8rem;
     --esp-sm: 1.6rem;
     --esp-md: 2.4rem;
-    --esp-lg: 4.0rem;
-    --esp-xl: 0.0rem;
+    --esp-lg: 4rem;
+    --esp-xl: 8rem;
 
     /*Otros elementos*/
 
@@ -159,6 +159,7 @@ img{
     position: fixed;
     /*Solo funciona si hay un elemento con posicion*/
     width: 100%;
+    background-color: var(--color-fondo-alt);
 }
 
 .logo{
@@ -298,7 +299,7 @@ img{
     box-shadow: var(--sombra-1);
 }
 
-.galeria-destacada{
+.pieza-destacada{
     display: grid;
     grid-column: span 2;/*ocupa 2 columnas*/
     grid-row: span 2;/*Ocupa 2 filas*/
@@ -312,7 +313,7 @@ img{
     filter: grayscale(60%);/*El filtro quita el 60% del color*/
 }
 
-.galeria-pieza:hover{
+.galeria-pieza:hover img{
     transform: scale(1.6);
     filter: grayscale(0);/*La imagen recupera el color*/
 }
@@ -324,6 +325,7 @@ img{
     right: 0;/*adsolute se ubica con respecto al elemento mas cercano con posicion relativa*/
     background-color: rgba(0, 0, 0, 0.65);
     color: var(--color-blanco);
+    padding: var(--esp-xs);
     font-size: 1.3rem;
     text-align: center;
     transform: translateY(100%);/*Lo desplaza hacia abajo el 100% de su altura*/
