@@ -217,6 +217,7 @@ table{
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 2.4rem;
+    overflow-x: auto;
 }
 
 .formulario{
