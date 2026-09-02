@@ -52,7 +52,7 @@ Portafolio-Codificación de Páginas Web/
 | :----: | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------: | :---------------------------------------------------------------: |
 |  S01   | Git y GitHub | _En esta clase aprendi a crear ramas y trabajar de forma colaborativa para crear una rama principal con los contenidos de todos los intergrantes, algunos de los comandos usados son: git branch (Para ver las ramas), git switch -c (Para crear una rama) y git checkout -b (Tambien para crear rama)._ | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_1_control_de_versiones/Clase-20-7-2026/E-20-7-2026.png) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_1_control_de_versiones/Clase-20-7-2026/E-20-7-2026.png) |
 
-<details>
+<details markdown="1">
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
 | Sesión | Tema                             | Qué aprendí                                      |       Trabajo       |      Captura       |
