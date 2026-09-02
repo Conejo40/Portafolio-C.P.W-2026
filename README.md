@@ -52,18 +52,19 @@ Portafolio-Codificación de Páginas Web/
 | :----: | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------: | :---------------------------------------------------------------: |
 |  S01   | Git y GitHub | _En esta clase aprendi a crear ramas y trabajar de forma colaborativa para crear una rama principal con los contenidos de todos los intergrantes, algunos de los comandos usados son: git branch (Para ver las ramas), git switch -c (Para crear una rama) y git checkout -b (Tambien para crear rama)._ | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_1_control_de_versiones/Clase-20-7-2026/E-20-7-2026.png) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_1_control_de_versiones/Clase-20-7-2026/E-20-7-2026.png) |
 
-<details markdown="1">
+<details>
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
-| Sesión | Tema                           | Qué aprendí                                      |      Trabajo      |     Captura      |
+| Sesión | Tema                             | Qué aprendí                                      |       Trabajo       |      Captura       |
 | :----: | :----------------------------- | :----------------------------------------------- | :---------------: | :--------------: |
 |  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos para trabajo colaborativo | [ver](unidad-02/) | [ver](recursos/) |
-|  S03   | Estructura del documento HTML5 | Aprendi a hacer la estructura basica en HTML     | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/index.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-03.png) |
+|  S03   | Estructura del documento HTML5 | Aprendi a hacer la estructura basica en HTML     | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Index.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-03.png) |
 |  S04   | Texto, enlaces y anclas        | Aprendi a usar links, textos y anclas            | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Articulo.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-04.png) |
 |  S05   | Listas y tablas                | Aprendi a crear tipos de listas y tablas         | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Horario.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-05.png) |
 |  S06   | Formularios y semántica        | Aprendi a crear formularios en HTML              | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Registro.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-06.png) |
-|  S07   | Multimedia                     | Aprendi a usar contenido multimedia en HTML      | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Galeria.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-07.png) |
+|  S07   | Multimedia                     | Aprendi a usar contenido multimedia en HTML      | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Galeria.html) | [ver](recursos/) |
 |  S08   | SVG y repaso                   | Aprendi a crear svg a partir de codigo en HTML   | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Sitio-demo/Insignia.html) | [ver](/Portafolio_de_Evidencias_Modulo-3/Unidad_2_HTML/Recursos/S-08.png) |
+
 <!--
   ─────────────────────────────────────────────────────────────────────
   DÓNDE PEGAR ESTO
@@ -81,16 +82,16 @@ Portafolio-Codificación de Páginas Web/
 ### El sitio personal
 
 Proyecto propio construido de forma autónoma.
-**Tema del sitio:** _(escribir aquí el tema elegido)_
+*Tema del sitio:* (escribir aquí el tema elegido)
 
 | Página | Qué contiene | Sesiones aplicadas | Ver | Validación |
 |:-------|:-------------|:------------------:|:---:|:----------:|
-| `index.html` | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06 | [ver](unidad-02-html/sitio-personal/index.html) | [ver](recursos/sp-validacion-index.png) |
-| `listas.html` | Las tres listas, lista anidada y tabla con celdas combinadas | S05 | [ver](unidad-02-html/sitio-personal/listas.html) | [ver](recursos/sp-validacion-listas.png) |
-| `contacto.html` | Formulario con ocho campos y validación de HTML | S06 | [ver](unidad-02-html/sitio-personal/contacto.html) | [ver](recursos/sp-validacion-contacto.png) |
-| `galeria.html` | Imágenes, audio, video con subtítulos y gráficas SVG | S07 · S08 | [ver](unidad-02-html/sitio-personal/galeria.html) | [ver](recursos/sp-validacion-galeria.png) |
+| index.html | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06 | [ver](unidad-02-html/sitio-personal/index.html) | [ver](recursos/sp-validacion-index.png) |
+| listas.html | Las tres listas, lista anidada y tabla con celdas combinadas | S05 | [ver](unidad-02-html/sitio-personal/listas.html) | [ver](recursos/sp-validacion-listas.png) |
+| contacto.html | Formulario con ocho campos y validación de HTML | S06 | [ver](unidad-02-html/sitio-personal/contacto.html) | [ver](recursos/sp-validacion-contacto.png) |
+| galeria.html | Imágenes, audio, video con subtítulos y gráficas SVG | S07 · S08 | [ver](unidad-02-html/sitio-personal/galeria.html) | [ver](recursos/sp-validacion-galeria.png) |
 
-**Decisiones que tomé**
+*Decisiones que tomé*
 
 | Decisión | Qué elegí | Por qué |
 |:---------|:----------|:--------|
@@ -99,20 +100,21 @@ Proyecto propio construido de forma autónoma.
 | Formatos de imagen usados | | |
 | Formas del gráfico SVG | | |
 
-**Cómo se ve**
+*Cómo se ve*
 
 <p align="center">
   <img src="recursos/sp-vista-index.png" width="600" alt="Portada del sitio personal">
 </p>
 
-<div align="center" markdown="1">
+<div align="center">
 
-*Portada del sitio personal al cerrar la Unidad 2.*
+Portada del sitio personal al cerrar la Unidad 2.
 
 </div>
 
-**Comprobado en dos navegadores:**
+*Comprobado en dos navegadores:*
 [Chrome](recursos/sp-navegador-chrome.png) · [Firefox](recursos/sp-navegador-firefox.png)
+
 </details>
 
 <details markdown="1">
