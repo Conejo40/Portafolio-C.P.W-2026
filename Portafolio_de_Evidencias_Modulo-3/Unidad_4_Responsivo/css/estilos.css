@@ -1966,3 +1966,114 @@ img {
     padding: var(--esp-lg);
   }
 }
+
+/* A partir de los 1024px - vista de escritorio */
+
+@media (min-width: 1024px){
+  h1{
+    font-size: 4.8;
+    /* h1 recupera el tamaño original */
+  }
+
+  .portada{
+    min-height: 55rem;
+    /* Una portada con 50px de alto ocupa casi toda la pantalla de un celular */
+  }
+
+  .seccion{
+    padding: var(--esp-xl) var(--esp-lg);
+  }
+}
+
+/*CUÁNTOS PUNTOS DE QUIEBRE HACEN FALTA
+Para Luz Clara basta con estos dos
+
+  base              hasta 767px             telefono
+  768px              tableta
+  1024px             escritorio*/
+
+  /*CÓMO SE ACUMULAN LAS REGLAS
+  en una pantalla de 1200px se aplican las TRES REGLAS:
+  1. La base 1200px
+  2. la de min-width: 768px (1200 es mayor que 768)
+  3. la de min-width: 1024px (1200 es mayor que 1024) 
+  Donde se repite una propiedad, gana la última.
+  Por eso el orden importa: de menor a mayor.
+  Si la de 1024 estuviera antes de las regla de 768, la última la anularía en pantallas grandes*/
+
+/* LA ESCALA COMPLETA, POR TRAMOS */
+
+/* BASE - TELEFONO */
+h1{font-size: 3.2rem;}
+h2{font-size: 2.4rem;}
+h3{font-size: 1.8rem;}
+body{font-size: 1.6rem;}
+
+/* ESCALA TABLETS */
+
+@media (min-width: 768px){
+  h1{font-size: 4rem;}
+  h2{font-size: 2.8rem;}
+  h3{font-size: 1.9rem;}
+}
+
+/* ESCALA ESCRITORIO */
+
+@media (min-width: 1024px){
+  h1{font-size: 4.8rem;}
+  h2{font-size: 3.2rem;}
+  h3{font-size: 2rem;}
+}
+
+/* LA TABLA DE contacto.html */
+.tabla-envoltorio{
+  /* despues de los 360px no hay forma razonable de que una tabla quepa sin perder la relacion entre los datos */
+  overflow-x: auto; /* crea su propia barra de desplazamiento */
+}
+
+@media (max-width: 768px){
+  /* se usa el max en lugar de min porque en media query ataca a la parte movil, e la ajusta so para movil */
+  .tabla th,
+  .tabla td{
+    padding: var(--esp-xs);
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px){
+  main p{
+    max-width: 65ch;
+  }
+}
+/* en movil no hace falta adaptar el texto de los parrafos, la pantalla lo hace. La adaptacion es parte de las tablets hacia arriba por parte de lectura*/
+
+/* PUNTOS DE QUIEBRE
+base              hasta 767px             telefono
+  768px              tableta
+  1024px             escritorio*/
+
+  /*TABLETA . a partir de 768px
+  @media (min-width:768) {
+  cabecera e fila
+  títulos más grandes
+  más relleno en las secciones
+  }*/
+
+  /*ESCRITORIO . a partir de 1024px
+  @media (min-width:1024) {
+  títulos a tamaño completo
+  portada más alta
+  }*/
+
+  /*AJUSTES SOLO PARA PANTALLA PEQUEÑA
+  @media (max-width:768) {
+  celdas de la tabla mas compactas 
+  }*/
+
+/*ACCESIBILIDAD DEL MOVIMIENTO
+  @media (prefer-reduce-motion: reduce) {
+  Va siempre al final de todo. Desactivas las animaciones desde el so del disposito en uso. 
+  }*/
+
+  /*Estos encabezados NO son decorativos.
+  Quien abra esta hoja de estilos o usted mismo dentro de 6 m
