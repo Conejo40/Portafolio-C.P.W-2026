@@ -418,6 +418,55 @@ img {
      se quitan las viñetas con list-style.                             */
 }
 
+.menu-control{
+  position: absolute;
+  opacity: 0;
+  width: 0.1rem;
+  height: 0.1rem;
+}
+
+.menu-boton{
+  /* este es el boton */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--esp-xs);
+  cursor: pointer;
+  padding: var(--esp-xs);
+}
+
+.menu-barra{
+  /* estas son las 3 barras del icono dibujadas con css */
+  display: block;
+  width: 2.4rem;
+  height: 0.3rem;
+  background-color: var(--color-marca);
+  border-radius: var(--radio);
+}
+
+.menu-texto{
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.menu-barra + .menu-barra{
+  margin-top: 0.4rem;
+
+}
+
+/* menu abierto cuando la casilla este marcada */
+.menu-control:checked ~ .menu{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-boton:focus-within{
+  /* es para la parte tab */
+  outline: 0.2rem solid var(--color-acento);
+  outline-offset: 0.2rem solid;
+}
+
 .menu-enlace {
   /* display: inline-block; */
   display: block;/* es mejor para movil porque ocupa todo el ancho disponible */
@@ -2085,3 +2134,23 @@ base              hasta 767px             telefono
   Quien abra esta hoja de estilos o usted mismo dentro de 6 meses
 
   /* la base para moviles */
+
+  @media (min-width: 768px){
+    .cabecera{
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .menu{
+      flex-direction: row;
+      gap: var(--esp-sm);
+      width: var(--ancho-max);
+    }
+
+    .menu-enlace{
+      display: inline-block;
+      padding: var(--esp-xs) var(--esp-sm);
+      border-radius: var(--radio);
+    }
+  }
