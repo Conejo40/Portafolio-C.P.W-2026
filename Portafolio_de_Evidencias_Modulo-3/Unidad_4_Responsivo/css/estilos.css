@@ -2154,3 +2154,14 @@ base              hasta 767px             telefono
       border-radius: var(--radio);
     }
   }
+
+  @media (min-width: 768px){
+    .menu-boton{
+      display: none; /* Lo hacemos para que desaparesca el boton */
+    }
+
+    .menu{
+      display: flex;
+      flex-direction: row;
+    }
+  }
