@@ -418,7 +418,7 @@ img {
      se quitan las viñetas con list-style.                             */
 }
 
-.menu-control{
+.menu-control {
   position: absolute;
   opacity: 0;
   width: 0.1rem;
@@ -2165,3 +2165,53 @@ base              hasta 767px             telefono
       flex-direction: row;
     }
   }
+
+  /* aplicamos reglas si el dispositivo esta en horizonta o vertical */
+
+   @media (orientation: landscape) and (max-height: 500px){
+    .portada{
+      min-height: 100vh;
+      padding: var(--esp-sm);
+    }
+
+    .portada-titulo{
+      font-size: 2.4rem;
+    }
+
+    .portada-bajada{
+      font-size: 1.5rem;
+    }
+   }
+
+   /* las consultas disponibles */
+
+   /* COPIAR AQUI */
+
+   @media print {
+    /* quitar lo que no nos sirve al imprimir */
+    .cabecera{display: none;}
+    .menu-boton{display: none;}
+    .pie{display: none;}
+    .boton{display: none;}
+    .volver-arriba{display: none;}
+    .fila-etiquetas{display: none;}
+   }
+
+   body{
+    background-color: var(--color-blanco);
+   }
+
+   .tabla, .tarjeta, figure{
+    page-break-inside: avoid;
+   }
+
+   h1 ,h2 ,h3{
+    page-break-after: avoid
+   }
+
+   /* mostrar enlaces */
+   main a[href^="http"]::after{
+    content: "("; attr(href)")";
+    font-size: 9pt;
+    color: #555;
+   }
