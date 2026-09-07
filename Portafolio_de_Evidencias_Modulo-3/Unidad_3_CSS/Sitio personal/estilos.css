@@ -155,7 +155,6 @@ nav a:hover{
     /* box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.6);
     padding: 1rem;
     border-radius: var(--radio); */
-    background-color: #fff;
 }
 
 .contenido a:hover{
@@ -463,6 +462,21 @@ header{
     h3{font-size: 1.9rem;}
     body{
         font-size: 1.6rem;
+        max-width: 76.7rem;
+        width: 90%;
+    }
+
+    .imagenes{
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    video{
+        width: 100%;
+        max-width: 76.7rem;
+        height: auto;
     }
 }
 
@@ -470,7 +484,7 @@ header{
 
 /* medida de telefono de 480 a 375 aprox */
 
-@media (width: 480px){
+@media (max-width: 480px){
     #header{
         flex-direction: column;
         align-items: center;
@@ -494,4 +508,17 @@ header{
     h1{font-size: 3.2rem;}
     h2{font-size: 2.4rem;}
     h3{font-size: 1.8rem;}
+
+    .imagenes{
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    video{
+        width: 100%;
+        max-width: 48rem;
+        height: auto;
+    }
 }
