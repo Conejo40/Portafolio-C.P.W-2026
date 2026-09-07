@@ -124,9 +124,13 @@ nav a:hover{
     align-items: center;
 }
 
-.logo img{
-    width: 20%;
-} 
+#mh{
+    display: none;
+}
+
+svg{
+    display: none;
+}
 
 /* Contenido banner */
 
@@ -467,7 +471,6 @@ header{
     }
 
     .imagenes{
-        flex-wrap: wrap;
         width: 100%;
         height: auto;
         object-fit: cover;
@@ -478,6 +481,14 @@ header{
         max-width: 76.7rem;
         height: auto;
     }
+
+    #mh{
+        display: none;
+    }
+
+    svg{
+        display: none;
+    }
 }
 
 /* de tablet a telefono */
@@ -486,9 +497,17 @@ header{
 
 @media (max-width: 480px){
     #header{
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         justify-content: space-between;
+    }
+
+    #mh{
+        display: none;
+    }
+
+    .menu{
+        display: none;
     }
 
     body{
@@ -520,5 +539,10 @@ header{
         width: 100%;
         max-width: 48rem;
         height: auto;
+    }
+
+    #mh:checked ~ .menu{
+        display: flex;
+        flex-direction: row; 
     }
 }
