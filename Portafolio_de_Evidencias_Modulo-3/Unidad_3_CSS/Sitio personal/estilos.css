@@ -470,11 +470,16 @@ header{
 
 /* medida de telefono de 480 a 375 aprox */
 
-@media (max-width: 480px){
+@media (width: 480px){
     #header{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+
+    body{
+        max-width: 48rem;
+        width: 90%;
     }
 
     .logo{
