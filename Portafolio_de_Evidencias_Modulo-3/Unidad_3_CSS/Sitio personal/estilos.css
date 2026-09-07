@@ -31,12 +31,6 @@ body{
     line-height: 1.6;
 }
 
-/* img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
- */
 h1, h2, h3{
     font-family: var(--tx-titulo);
 }
@@ -47,15 +41,6 @@ h1{
     text-align: center;
     font-weight: bold;
     transition: all 1s ease;
-}
-
-.contenido ul{
-    list-style-type: none;
-    padding: 10px;
-}
-
-.destacado{
-    padding: 10px;
 }
 
 h2{
@@ -78,9 +63,41 @@ p{
 /*CH es el ancho del caracter, el valor 70 marca un rango de lectura comoda por linea o renglon, mas larga la vista se pierde*/
 
 p{
-    max-width: 100ch;
+    max-width: 70ch;
     transition: all 1s ease;
-    display: block;
+}
+
+/* Encabezado y pie de pagina*/
+
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #CE8B5C;
+    /*background-image: url(Recursos/fondo.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    gap: 2rem;
+    z-index: 100;
+    /*display: inline-block;*/
+}
+
+header nav{
+    align-self: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    gap: 4rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    gap: 2rem;
 }
 
 a{
@@ -102,19 +119,6 @@ nav a:hover{
     
 }
 
-header, footer{
-    display: flex;
-    justify-content: space-between;
-    background-color: #CE8B5C;
-    /*background-image: url(Recursos/fondo.jpg);*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 3rem;
-    gap: 2rem;
-    z-index: 100;
-    /*display: inline-block;*/
-}
-
 .logo{
     display: flex;
     align-items: center;
@@ -122,53 +126,81 @@ header, footer{
 
 .logo img{
     width: 20%;
-}
+} 
 
-header nav{
-    align-self: center;
-}
-header nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    gap: 4rem;
-}
+/* Contenido banner */
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    gap: 2rem;
+.contenido{
+    display: block;
+    text-align: center;
+
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 2rem;
+    /* box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.6); */
+    border-bottom: 0.2rem solid #000;
 }
 
 .contenido ul{
     display: flex;
-    text-align: start;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
     gap: 2rem;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.6);
-    border-radius: var(--radio);
-    margin-bottom: 1rem;
 }
 
 .contenido a{
+    text-align: center;
     color: #421908;
+    /* box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: var(--radio); */
+    background-color: #fff;
 }
 
 .contenido a:hover{
     color: #CE8B5C;
 }
 
-div a:hover{
-    text-decoration: none;
-    color: #421908;
-}
-
 #bienvenida{
     color: #A85D30;
+    margin-bottom: 4rem;
+}
+
+/* .destacado{
+    padding: 10px;
+} */
+
+/* Tarjetas */
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tarjeta{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: var(--radio);
+    background-color: #ECCCB4;
+}
+
+.tarjeta h3{
+    border-bottom: 0.2rem solid #000;
+}
+
+.cita{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.6);
+    border-left: 0.4rem solid #a8490d;
+    background-color: #ECCCB4;
+    padding: 2rem;
 }
 
 /*Inicio de la seccion 18*/
+
+/* Tabla y listas */
 
 caption{
     text-align: left;
@@ -219,6 +251,8 @@ table{
     margin-bottom: 2.4rem;
     overflow-x: auto;
 }
+
+/* Formulario de contacto */
 
 .formulario{
     display: grid;
@@ -399,15 +433,6 @@ figure{
     color: #CE8B5C;
 }
 
-/*Footer*/
-
-/* #footer{
-    background-color: #CE8B5C;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-} */
-
 @keyframes aparecer{
     from{
         opacity: 0;
@@ -432,7 +457,7 @@ header{
 
 /* de escritorio a tablet */
 
-@media (max-width: 768px){
+@media (width <= 767px) and (width >= 481px){
     h1{font-size: 4rem;}
     h2{font-size: 2.8rem;}
     h3{font-size: 1.9rem;}
